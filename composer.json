@@ -1,0 +1,26 @@
+{
+    "name": "yangliu618/swoole-app",
+    "description": "use composer to generate a swoole app",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yangliu618",
+            "email": "yangliu618@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "application",
+            "framework\\":"framework/core"
+        },
+        "files": []
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-swoole": ">=4.4"
+    },
+    "license": "proprietary"
+}
+
+
